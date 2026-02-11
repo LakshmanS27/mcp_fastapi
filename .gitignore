@@ -1,0 +1,68 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyo
+*.pyd
+
+# Packaging
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Poetry / pip-tools
+poetry.lock
+pipfile.lock
+
+# Python bytecode
+*.pyc
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# SQLite / database files (if any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Alembic / migrations (optional)
+# If you want to ignore migrations, uncomment below
+# alembic/versions/
+alembic/env.py
+
+# Uvicorn / log files
+*.log
+
+# MCP (if it creates runtime files)
+mcp_cache/
+mcp_sessions/
+mcp_tmp/
+
+# FastAPI docs cache
+*.json
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Windows
+Thumbs.db
+
+uv.lock
+
+extra.txt

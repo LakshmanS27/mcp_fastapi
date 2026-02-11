@@ -1,0 +1,28 @@
+app/
+│
+├── main.py
+├── database.py
+│
+├── models/
+│   ├── client.py
+│   ├── project.py
+│
+├── schemas/
+│   ├── client.py
+│   ├── project.py
+│
+├── routes/
+│   ├── client.py
+│   ├── project.py
+│
+├── services/
+│   ├── client_service.py
+│   ├── project_service.py
+│
+├── utils/
+│   ├── response.py
+│   ├── common_query.py   ← search/sort/pagination logic
+│
+└── bulk/
+    ├── upload.py
+    ├── download.py
